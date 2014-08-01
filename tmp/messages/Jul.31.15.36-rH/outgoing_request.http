@@ -1,0 +1,12 @@
+GET /cart.php?action=add&product_id=24&fastcart=1 HTTP/1.0
+Host: igadgetcommerce.com
+Connection: close
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest, XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+Referer: https://igadgetcommerce.com/login.php?from=account.php%3Faction%3D
+Accept-Encoding: gzip,deflate
+Accept-Language: en-US,en;q=0.8
+Cookie: SHOP_SESSION_TOKEN=f452sb58elbkqsu8a05gqhat75; STORE_VISITOR=1; RECENTLY_VIEWED_PRODUCTS=5%2C28; __atuvc=3%7C31; ajs_group_id=null; ajs_user_id=null
+Via: 1.0 moovweb
+

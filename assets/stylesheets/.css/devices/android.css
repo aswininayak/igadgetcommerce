@@ -1,0 +1,1103 @@
+/* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 31, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+body {
+  line-height: 1; }
+
+/* line 34, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+ol, ul {
+  list-style: none; }
+
+/* line 37, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+blockquote, q {
+  quotes: none; }
+
+/* line 41, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 45, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 74, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+.mw_btn1, #Container #Wrapper .ProductList li .ProductActionAdd {
+  display: block;
+  cursor: pointer;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1.4;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5px;
+  -webkit-transition: opacity, 0.2s, ease-out;
+  -moz-transition: opacity, 0.2s, ease-out;
+  -ms-transition: opacity, 0.2s, ease-out;
+  -o-transition: opacity, 0.2s, ease-out;
+  transition: opacity, 0.2s, ease-out;
+  position: relative;
+  min-width: 120px;
+  min-height: 20px;
+  background-color: #852201;
+  border: 1px solid #2a1205;
+  color: white;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  font-weight: normal; }
+  /* line 34, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_btn1:hover, #Container #Wrapper .ProductList li .ProductActionAdd:hover, .mw_btn1:active, #Container #Wrapper .ProductList li .ProductActionAdd:active {
+    opacity: 0.9;
+    -webkit-transition: opacity, 0.2s, ease-in;
+    -moz-transition: opacity, 0.2s, ease-in;
+    -ms-transition: opacity, 0.2s, ease-in;
+    -o-transition: opacity, 0.2s, ease-in;
+    transition: opacity, 0.2s, ease-in; }
+  /* line 52, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_btn1 a, .mw_btn1 #Container #Wrapper .ProductList li .ProductActionAdd, #Container #Wrapper .ProductList li .mw_btn1 .ProductActionAdd {
+    display: block;
+    color: white !important;
+    text-decoration: none !important; }
+  /* line 57, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_btn1 input, .mw_btn1 #Container #Wrapper .ProductList li .ProductActionAdd, #Container #Wrapper .ProductList li .mw_btn1 .ProductActionAdd {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0 !important; }
+
+/* line 78, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+.mw_btn2 {
+  display: block;
+  cursor: pointer;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1.4;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  border-radius: 5px;
+  -webkit-transition: opacity, 0.2s, ease-out;
+  -moz-transition: opacity, 0.2s, ease-out;
+  -ms-transition: opacity, 0.2s, ease-out;
+  -o-transition: opacity, 0.2s, ease-out;
+  transition: opacity, 0.2s, ease-out;
+  position: relative;
+  min-width: 120px;
+  min-height: 20px;
+  background-color: #852201;
+  border: 1px solid #2a1205;
+  color: white;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  font-weight: normal;
+  float: right;
+  min-width: 80px;
+  min-height: 20px; }
+  /* line 34, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_btn2:hover, .mw_btn2:active {
+    opacity: 0.9;
+    -webkit-transition: opacity, 0.2s, ease-in;
+    -moz-transition: opacity, 0.2s, ease-in;
+    -ms-transition: opacity, 0.2s, ease-in;
+    -o-transition: opacity, 0.2s, ease-in;
+    transition: opacity, 0.2s, ease-in; }
+  /* line 52, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_btn2 a {
+    display: block;
+    color: white !important;
+    text-decoration: none !important; }
+  /* line 57, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_btn2 input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0 !important; }
+
+/* line 89, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+.mw_h1 {
+  font-size: 22px;
+  color: white;
+  font-weight: normal;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9); }
+
+/* line 116, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+.mw_bar1 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: -moz-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: -ms-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: -o-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: linear-gradient(top, #852201 0, #6a1b00 100%);
+  border-top: 1px solid #6a1802;
+  min-height: 40px;
+  padding: 0px;
+  color: white;
+  text-decoration: none; }
+  /* line 111, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  .mw_bar1 a {
+    color: white;
+    padding: 10px; }
+
+/* line 5, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+/* line 12, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0; }
+
+/* line 16, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+h2 {
+  margin: 5px 0 10px; }
+
+/* line 19, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+p {
+  font-size: 13px; }
+
+/* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+textarea, input[type="text"], input[type="password"], select {
+  border: 1px solid #CDCDCD;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 8px;
+  vertical-align: middle;
+  margin: 0px 5px;
+  -webkit-box-shadow: 0px 0px 0px #000;
+  -moz-box-shadow: 0px 0px 0px #000;
+  box-shadow: 0px 0px 0px #000; }
+
+/* line 35, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+a {
+  text-decoration: none; }
+
+/* line 38, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+ul {
+  margin: 0;
+  padding: 0; }
+  /* line 41, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+/* line 47, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+hr {
+  margin: 10px 0;
+  padding: 0;
+  background: #C7D7DB;
+  height: 1px;
+  border: 0; }
+
+/* line 56, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#Container {
+  width: 100%;
+  zoom: 1; }
+  /* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+  #Container:before, #Container:after {
+    content: "";
+    display: table; }
+  /* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+  #Container:after {
+    clear: both; }
+  /* line 59, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container #AjaxLoading {
+    display: none;
+    text-align: center;
+    background: #FCF5AA;
+    width: 100%;
+    z-index: 999 !important;
+    padding: 130px 10px;
+    left: 0 !important;
+    border-bottom: 2px solid #6a1800;
+    height: 250px;
+    font-size: 15px;
+    font-weight: bold; }
+    /* line 71, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #AjaxLoading img {
+      vertical-align: bottom;
+      display: block;
+      margin: 10px auto; }
+  /* line 79, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container #Wrapper .ProductList strong a {
+    color: #075899; }
+  /* line 82, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container #Wrapper .ProductList li {
+    background-color: #f0f0f0;
+    border: 1px solid #e5e5e5;
+    width: auto !important;
+    height: auto !important;
+    padding: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    zoom: 1; }
+    /* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Container #Wrapper .ProductList li:before, #Container #Wrapper .ProductList li:after {
+      content: "";
+      display: table; }
+    /* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Container #Wrapper .ProductList li:after {
+      clear: both; }
+    /* line 91, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .ProductList li .ProductDetails {
+      margin-bottom: 2px;
+      height: auto !important; }
+    /* line 95, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .ProductList li .ProductImage {
+      float: left;
+      margin-right: 10px;
+      background-color: #fff;
+      text-align: center; }
+      /* line 100, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+      #Container #Wrapper .ProductList li .ProductImage a {
+        display: table-cell;
+        vertical-align: middle;
+        height: 120px; }
+        /* line 104, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+        #Container #Wrapper .ProductList li .ProductImage a img {
+          max-width: 120px;
+          max-height: 120px; }
+    /* line 111, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .ProductList li .ProductPriceRating {
+      height: auto !important; }
+      /* line 113, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+      #Container #Wrapper .ProductList li .ProductPriceRating em {
+        color: #F33; }
+      /* line 116, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+      #Container #Wrapper .ProductList li .ProductPriceRating span {
+        display: block; }
+    /* line 120, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .ProductList li .Rating {
+      color: #797979; }
+    /* line 123, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .ProductList li .ProductActionAdd {
+      position: absolute;
+      bottom: 10px;
+      left: 140px;
+      height: 16px;
+      padding: 9px 7px 5px 7px;
+      margin: 0;
+      font-size: 13px; }
+      /* line 132, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+      #Container #Wrapper .ProductList li .ProductActionAdd a {
+        color: white !important; }
+    /* line 136, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .ProductList li .ProductCompareButton {
+      display: none; }
+  /* line 141, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container #Wrapper .Content {
+    background: url("/_moovweb_local_assets_/images/content_top.png") repeat-x 0 0;
+    zoom: 1;
+    padding: 15px 10px; }
+    /* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Container #Wrapper .Content:before, #Container #Wrapper .Content:after {
+      content: "";
+      display: table; }
+    /* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Container #Wrapper .Content:after {
+      clear: both; }
+    /* line 145, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .Content h3 {
+      margin-bottom: 5px; }
+    /* line 148, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .Content a {
+      color: #075899; }
+    /* line 152, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #Container #Wrapper .Content .QuickViewBtn, #Container #Wrapper .Content .BrandList, #Container #Wrapper .Content .NewsletterSubscription, #Container #Wrapper .Content .CompareButton, #Container #Wrapper .Content .FeedLink, #Container #Wrapper .Content #CategoryBreadcrumb, #Container #Wrapper .Content .Breadcrumb, #Container #Wrapper .Content .AddThisButtonBox {
+      display: none !important; }
+  /* line 156, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container #Wrapper .Left {
+    padding: 10px; }
+  /* line 159, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container #Wrapper .Right {
+    display: none; }
+  /* line 163, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #Container .Block {
+    margin-bottom: 5px;
+    zoom: 1; }
+    /* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Container .Block:before, #Container .Block:after {
+      content: "";
+      display: table; }
+    /* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Container .Block:after {
+      clear: both; }
+
+/* line 169, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+[mw_class='hide'] {
+  display: none; }
+
+/* line 174, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalOverlay {
+  background-color: black; }
+
+/* line 177, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalContainer {
+  left: 0;
+  top: 0 !important;
+  position: absolute !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  background-color: #822700;
+  background: url("/_moovweb_local_assets_/images/header_bg.jpg") repeat-x 0 0; }
+
+/* line 186, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+.modalClose {
+  z-index: 100000;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  text-align: left !important;
+  text-indent: -9999px !important;
+  height: 32px;
+  width: 43px !important;
+  background-position: 0px -210px !important; }
+
+/* line 202, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalLoadingOverlay {
+  background: #000;
+  cursor: pointer; }
+
+/* line 206, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalLoadingIndicator {
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  background: url(loading.gif) no-repeat;
+  position: static;
+  top: 50%;
+  left: 50%;
+  z-index: 30001; }
+
+/* line 217, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalContentContainer {
+  -webkit-background-clip: padding-box;
+  margin-top: 49px;
+  border-bottom: 2px solid #6a1802; }
+
+/* line 222, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalTitle, .ModalTitle {
+  background: #f2f4f7;
+  color: #313131;
+  font-size: 110%;
+  font-weight: bold;
+  padding: 0px;
+  border-bottom-color: #b8b8b8;
+  -webkit-background-clip: padding-box;
+  text-align: left; }
+
+/* line 232, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalContent, .ModalContent {
+  border-bottom: 1px solid #606263;
+  border-top-width: 0;
+  background: #fff;
+  margin: 0;
+  text-align: left;
+  color: #444;
+  padding: 10px 10px 10px;
+  margin-top: 25px;
+  margin: 0; }
+
+/* line 243, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalContent a, .ModalContent a {
+  color: #444; }
+
+/* line 246, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+.ModalContentWithButtons .ModalContent, .ModalContentWithButtons #ModalContent {
+  margin-bottom: 0;
+  border-bottom-width: 0; }
+
+/* line 250, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalButtonRow, .ModalButtonRow {
+  border: 1px solid #606263;
+  border-top-color: #919394;
+  background: #e7ebf0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-background-clip: padding-box;
+  text-align: right;
+  padding: 4px 8px;
+  height: 30px;
+  line-height: 30px; }
+
+/* line 264, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalButtonRow input, .ModalButtonRow input {
+  text-align: center; }
+
+/* line 268, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#ModalButtonRow input.Submit, .ModalButtonRow input.Submit, #ModalButtonRow input.SubmitButton, .ModalButtonRow input.SubmitButton {
+  font-weight: bold; }
+
+/* line 273, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+#fastCartContainer {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px; }
+  /* line 276, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent h2 {
+    color: #292929;
+    background-color: transparent; }
+  /* line 280, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent h3 {
+    color: #BB6F21;
+    background-color: transparent; }
+  /* line 284, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartSummaryBox {
+    background-color: #F1F1F1;
+    line-height: 160%;
+    border: 1px solid #CCC; }
+  /* line 289, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartItemBox a {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; }
+  /* line 296, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent .fastCartTop a, #fastCartContainer .fastCartContent .ProductList .ProductDetails a {
+    color: #075899; }
+  /* line 300, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent .ProductPrice, #fastCartContainer .fastCartContent .ProductList em {
+    color: #800000; }
+  /* line 303, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent .Quantity {
+    color: #828DB3; }
+  /* line 306, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent p {
+    color: #444444; }
+  /* line 309, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartContent .ProductList li {
+    background-color: #f0f0f0; }
+  /* line 312, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .fastCartTop {
+    margin-top: 20px; }
+    /* line 314, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #fastCartContainer .fastCartTop .fastCartThumb {
+      float: left;
+      margin-bottom: 10px; }
+    /* line 318, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #fastCartContainer .fastCartTop .fastCartSummaryBox {
+      clear: both;
+      margin-top: 15px;
+      padding: 20px 10px 20px;
+      text-align: center; }
+  /* line 325, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .actionLink {
+    margin-top: 5px; }
+    /* line 327, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+    #fastCartContainer .actionLink a {
+      display: block;
+      background-color: #6a1802;
+      color: #fff !important;
+      width: 130px;
+      border-radius: 3px;
+      border: 1px solid #4E1100;
+      margin: auto;
+      font-size: 11px;
+      padding: 6px;
+      font-size: 11px;
+      font-weight: bold; }
+  /* line 341, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_base */
+  #fastCartContainer .Odd, #fastCartContainer .Even {
+    width: auto !important;
+    height: auto !important;
+    background-color: white !important; }
+
+/*  #######################################
+    ####### URANIUM WIDGET STYLING ########
+    #######################################  */
+/* line 6, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+[data-ur-toggler-component="content"] {
+  display: none; }
+  /* line 8, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+  [data-ur-toggler-component="content"]:not([data-ur-state]) {
+    display: none; }
+  /* line 11, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+  [data-ur-toggler-component="content"][data-ur-state="enabled"] {
+    display: block; }
+
+/* line 17, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+[data-ur-tabs-component="content"] {
+  display: none; }
+  /* line 19, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+  [data-ur-tabs-component="content"]:not([data-ur-state]) {
+    display: none; }
+  /* line 22, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+  [data-ur-tabs-component="content"][data-ur-state="enabled"] {
+    display: block; }
+
+/* line 28, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+[data-ur-state="hide"] {
+  display: none !important; }
+
+/* line 33, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+div[data-ur-carousel-component='view_container'] {
+  width: 100%;
+  overflow-x: hidden; }
+
+/* line 37, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+div[data-ur-carousel-component="scroll_container"] {
+  display: block;
+  clear: both; }
+  /* line 40, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+  div[data-ur-carousel-component="scroll_container"] > * {
+    display: inline-block;
+    float: left; }
+
+/* line 46, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+a[data-ur-carousel-component="item"] img {
+  -webkit-user-drag: none; }
+
+/* line 50, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+[data-ur-carousel-component="dots"] {
+  text-align: center;
+  margin-bottom: 10px; }
+
+/* line 54, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+[data-ur-carousel-component="dot"] {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background: black;
+  display: inline-block;
+  margin: 0 1px;
+  opacity: 0.8;
+  width: 10px;
+  height: 10px; }
+  /* line 62, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_uranium */
+  [data-ur-carousel-component="dot"][data-ur-state="inactive"] {
+    opacity: 0.3; }
+
+/* line 160, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-AddCartButton {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px 0px;
+  width: 126px;
+  height: 30px; }
+
+/* line 166, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-MultippleAddresses {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -31px;
+  width: 213px;
+  height: 30px; }
+
+/* line 172, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-ProceedToCheckout {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -62px;
+  width: 140px;
+  height: 30px; }
+
+/* line 178, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-ProceedToPayment {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -93px;
+  width: 139px;
+  height: 30px; }
+
+/* line 184, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-SaveReview {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -124px;
+  width: 126px;
+  height: 30px; }
+
+/* line 190, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-UpdateQuanity {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -155px;
+  width: 126px;
+  height: 30px; }
+
+/* line 196, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-WriteReview {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -186px;
+  width: 126px;
+  height: 30px; }
+
+/* line 202, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-back, .modalClose {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -217px;
+  width: 43px;
+  height: 32px; }
+
+/* line 208, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-cart, #Header #Logo #TopMenu ul .CartLink a {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -250px;
+  width: 44px;
+  height: 39px; }
+
+/* line 214, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-go_btn {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -290px;
+  width: 41px;
+  height: 30px; }
+
+/* line 220, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-menu-on, #Header .mw_header_bottom .mw_menu_btn[data-ur-state="enabled"] span {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -321px;
+  width: 60px;
+  height: 33px; }
+
+/* line 226, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-menu, #Header .mw_header_bottom .mw_menu_btn {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -355px;
+  width: 60px;
+  height: 33px; }
+
+/* line 232, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-search {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -389px;
+  width: 40px;
+  height: 33px; }
+
+/* line 238, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_buttons */
+.buttons-user, #Header #Logo #TopMenu ul .First a {
+  background: url("/_moovweb_local_assets_/images/buttons.png") no-repeat 0px -423px;
+  width: 44px;
+  height: 39px; }
+
+/* line 127, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-breadcrumb {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px 0px;
+  width: 5px;
+  height: 8px; }
+
+/* line 133, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-btn_bg {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -9px;
+  width: 2px;
+  height: 2px; }
+
+/* line 139, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-content_top {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -12px;
+  width: 3px;
+  height: 36px; }
+
+/* line 145, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-form_bg {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -49px;
+  width: 179px;
+  height: 33px; }
+
+/* line 151, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-gplus {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -83px;
+  width: 256px;
+  height: 256px; }
+
+/* line 157, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-menu_go {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -340px;
+  width: 9px;
+  height: 13px; }
+
+/* line 163, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-minus, .mw_iphone .Left .ShopByPrice h2[data-ur-state="enabled"] > .mw_indicator, .mw_iphone .Left .BrandList h2[data-ur-state="enabled"] > .mw_indicator {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -354px;
+  width: 13px;
+  height: 13px; }
+
+/* line 169, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-moovweb {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -368px;
+  width: 90px;
+  height: 11px; }
+
+/* line 175, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-ok {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -380px;
+  width: 15px;
+  height: 15px; }
+
+/* line 181, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-plus, .mw_iphone .Left .ShopByPrice h2[data-ur-state="disabled"] > .mw_indicator, .mw_iphone .Left .BrandList h2[data-ur-state="disabled"] > .mw_indicator {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -396px;
+  width: 13px;
+  height: 13px; }
+
+/* line 187, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_sprites */
+.sprites-twitter {
+  background: url("/_moovweb_local_assets_/images/sprites.png") no-repeat 0px -410px;
+  width: 300px;
+  height: 300px; }
+
+/* line 1, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+#Header {
+  border-top: 1px solid black;
+  min-height: 96px; }
+  /* line 4, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header #Logo {
+    zoom: 1;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    background: -webkit-linear-gradient(top, #C14102 0, #9a3401 100%);
+    background: -moz-linear-gradient(top, #C14102 0, #9a3401 100%);
+    background: -ms-linear-gradient(top, #C14102 0, #9a3401 100%);
+    background: -o-linear-gradient(top, #C14102 0, #9a3401 100%);
+    background: linear-gradient(top, #C14102 0, #9a3401 100%);
+    border-top: 1px solid #D74401;
+    padding: 0; }
+    /* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Header #Logo:before, #Header #Logo:after {
+      content: "";
+      display: table; }
+    /* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Header #Logo:after {
+      clear: both; }
+    /* line 7, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header #Logo #LogoContainer {
+      float: left; }
+      /* line 9, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+      #Header #Logo #LogoContainer h1 {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 17px; }
+        /* line 13, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+        #Header #Logo #LogoContainer h1 a {
+          font-size: 22px;
+          color: white;
+          font-weight: normal;
+          text-shadow: 0 -1px rgba(0, 0, 0, 0.9); }
+    /* line 19, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header #Logo #TopMenu ul {
+      margin-top: 0px; }
+      /* line 21, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+      #Header #Logo #TopMenu ul li {
+        float: right;
+        margin-top: -1px;
+        margin-right: 10px; }
+      /* line 27, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+      #Header #Logo #TopMenu ul .First a {
+        display: block;
+        text-indent: -9999px; }
+      /* line 34, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+      #Header #Logo #TopMenu ul .CartLink a {
+        display: block;
+        text-indent: -9999px; }
+        /* line 38, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+        #Header #Logo #TopMenu ul .CartLink a span {
+          display: none; }
+  /* line 46, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header .mw_header_bottom {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #852201 0, #6a1b00 100%);
+    background: -moz-linear-gradient(top, #852201 0, #6a1b00 100%);
+    background: -ms-linear-gradient(top, #852201 0, #6a1b00 100%);
+    background: -o-linear-gradient(top, #852201 0, #6a1b00 100%);
+    background: linear-gradient(top, #852201 0, #6a1b00 100%);
+    border-top: 1px solid #6a1802;
+    min-height: 40px;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    clear: both;
+    padding: 8px 10px;
+    min-height: 33px; }
+    /* line 111, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+    #Header .mw_header_bottom a {
+      color: white;
+      padding: 10px; }
+    /* line 51, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header .mw_header_bottom * {
+      vertical-align: top; }
+    /* line 54, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header .mw_header_bottom .mw_search {
+      text-align: left;
+      display: inline-block;
+      width: 75%; }
+      /* line 58, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+      #Header .mw_header_bottom .mw_search form {
+        height: 21px;
+        padding: 0;
+        position: relative; }
+        /* line 64, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+        #Header .mw_header_bottom .mw_search form input[type='text'] {
+          -webkit-box-shadow: inset 1px 1px 2px #666;
+          -moz-box-shadow: inset 1px 1px 2px #666;
+          box-shadow: inset 1px 1px 2px #666;
+          border: 1px solid black;
+          background-color: #f1f0f0;
+          font-size: 13px;
+          padding: 4px;
+          height: 23px;
+          margin: 0;
+          width: 100%;
+          display: block; }
+        /* line 75, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+        #Header .mw_header_bottom .mw_search form input[type='image'] {
+          width: 40px;
+          height: 33px;
+          opacity: 0; }
+        /* line 80, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+        #Header .mw_header_bottom .mw_search form .mw_search_btn {
+          height: 33px;
+          position: absolute;
+          top: 0;
+          right: -13px; }
+    /* line 88, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header .mw_header_bottom .mw_menu_btn {
+      margin-left: 6px;
+      float: right;
+      display: block;
+      width: 60px;
+      height: 33px;
+      text-indent: -9999px; }
+  /* line 104, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header #Menu ul {
+    padding: 2px 0 0;
+    background-color: #F5F2E1;
+    zoom: 1; }
+    /* line 18, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Header #Menu ul:before, #Header #Menu ul:after {
+      content: "";
+      display: table; }
+    /* line 23, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/bourbon/addons/clearfix */
+    #Header #Menu ul:after {
+      clear: both; }
+    /* line 108, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header #Menu ul li {
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #C0BCA3; }
+      /* line 112, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+      #Header #Menu ul li a {
+        display: block;
+        padding: 11px 10px 10px;
+        color: #3D211A;
+        text-shadow: 1px 1px 0px white;
+        background: url("/_moovweb_local_assets_/images/menu_go.png") no-repeat 95% center; }
+  /* line 122, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header #Menu #SideCategoryList h2 {
+    background-color: #812600;
+    border-bottom: 1px solid #5A0D00;
+    border-top: 1px solid #5A0D00;
+    font-size: 15px;
+    padding: 11px 10px 10px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 1px 0px #411B07; }
+  /* line 132, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header #Menu #SideCategoryList ul {
+    background-color: #F5F2E1; }
+    /* line 134, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+    #Header #Menu #SideCategoryList ul a {
+      padding: 10px 10px 9px; }
+  /* line 140, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header .Block {
+    margin-bottom: 0px; }
+  /* line 144, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_header */
+  #Header .mw_search_btn .ex_button {
+    opacity: 0; }
+
+/* line 1, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_footer */
+#Footer {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: -moz-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: -ms-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: -o-linear-gradient(top, #852201 0, #6a1b00 100%);
+  background: linear-gradient(top, #852201 0, #6a1b00 100%);
+  border-top: 1px solid #6a1802;
+  min-height: 40px;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+  width: auto;
+  padding: 14px 10px;
+  height: 72px;
+  font-weight: normal; }
+  /* line 111, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/globals/_lib */
+  #Footer a {
+    color: white;
+    padding: 10px; }
+  /* line 7, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_footer */
+  #Footer div {
+    text-align: center; }
+    /* line 9, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_footer */
+    #Footer div .mw_currency {
+      margin-bottom: 5px; }
+    /* line 12, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_footer */
+    #Footer div span {
+      color: #d3b4af;
+      font-size: 12px; }
+    /* line 17, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_footer */
+    #Footer div .mw_moovweb span {
+      margin-top: 12px;
+      margin-bottom: 5px;
+      display: block;
+      font-style: italic;
+      font-size: 11px; }
+    /* line 24, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/sections/_footer */
+    #Footer div .mw_moovweb div {
+      display: block;
+      margin: auto; }
+
+/* line 4, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_home */
+.mw_home .Left {
+  display: none; }
+/* line 8, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_home */
+.mw_home .Clear {
+  display: none; }
+/* line 12, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_home */
+.mw_home .mw_banner {
+  padding: 5px 10px;
+  text-align: center;
+  color: white;
+  background: #C92500; }
+
+/* line 2, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+.mw_iphone .Content {
+  background: none;
+  padding-top: 0; }
+  /* line 5, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+  .mw_iphone .Content a {
+    color: #075899; }
+  /* line 8, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+  .mw_iphone .Content .SubCategoryList, .mw_iphone .Content .SubBrandList {
+    margin-top: 20px;
+    background: #EEF5F9; }
+    /* line 11, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+    .mw_iphone .Content .SubCategoryList ul, .mw_iphone .Content .SubBrandList ul {
+      list-style: none;
+      margin-left: 0; }
+      /* line 14, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+      .mw_iphone .Content .SubCategoryList ul li, .mw_iphone .Content .SubBrandList ul li {
+        margin-bottom: 4px;
+        padding: 10px 30px;
+        background: url("/_moovweb_local_assets_/images/SubCategory.gif") no-repeat 8px center; }
+  /* line 21, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+  .mw_iphone .Content .SortBox {
+    background: #812600;
+    border: 1px solid #5f0f02;
+    font-weight: bold;
+    padding: 12px 3px 9px 10px;
+    margin: 0;
+    color: #fff;
+    background: url("/_moovweb_local_assets_/images/ok.png") no-repeat 95% center #812600;
+    border-radius: 5px; }
+    /* line 31, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+    .mw_iphone .Content .SortBox select {
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 14px;
+      vertical-align: middle;
+      margin-left: 5px;
+      margin-top: 0px;
+      padding-top: 0px;
+      text-align: right; }
+      /* line 41, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+      .mw_iphone .Content .SortBox select option {
+        text-align: right; }
+/* line 47, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+.mw_iphone .Left {
+  background: url("/_moovweb_local_assets_/images/content_top.png") repeat-x 0 0;
+  padding-top: 20px; }
+  /* line 50, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+  .mw_iphone .Left > h2 {
+    margin-bottom: 15px; }
+  /* line 54, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+  .mw_iphone .Left .ShopByPrice h2, .mw_iphone .Left .BrandList h2 {
+    background: #812600;
+    border: 1px solid #5f0f02;
+    font-size: 14px;
+    padding: 11px 10px 10px;
+    margin: 0;
+    color: #fff;
+    border-radius: 5px; }
+    /* line 56, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+    .mw_iphone .Left .ShopByPrice h2:before, .mw_iphone .Left .BrandList h2:before {
+      margin-top: -7px;
+      margin-left: -20px;
+      content: "";
+      top: 50%;
+      position: absolute; }
+    /* line 63, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+    .mw_iphone .Left .ShopByPrice h2 > .mw_indicator, .mw_iphone .Left .BrandList h2 > .mw_indicator {
+      float: right; }
+    /* line 78, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+    .mw_iphone .Left .ShopByPrice h2[data-ur-state="enabled"], .mw_iphone .Left .BrandList h2[data-ur-state="enabled"] {
+      border-radius: 5px 5px 0 0; }
+  /* line 86, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+  .mw_iphone .Left .ShopByPrice div ul, .mw_iphone .Left .BrandList div ul {
+    padding: 2px 0 0;
+    background-color: #F5F2E1;
+    border-left: 1px solid #5f0f02;
+    border-right: 1px solid #5f0f02;
+    border-bottom: 1px solid #5f0f02;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden; }
+    /* line 94, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+    .mw_iphone .Left .ShopByPrice div ul li, .mw_iphone .Left .BrandList div ul li {
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #5f0f02; }
+      /* line 98, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+      .mw_iphone .Left .ShopByPrice div ul li a, .mw_iphone .Left .BrandList div ul li a {
+        display: block;
+        padding: 11px 20px 9px;
+        color: #3D211A;
+        background: url("/_moovweb_local_assets_/images/menu_go.png") no-repeat 91% center;
+        font-size: 13px;
+        font-weight: bold; }
+      /* line 106, d:\aswini\iGadgetCommerce-example\assets\stylesheets\/pages/_category */
+      .mw_iphone .Left .ShopByPrice div ul li:last-child, .mw_iphone .Left .BrandList div ul li:last-child {
+        padding-bottom: 3px;
+        overflow: hidden;
+        border-bottom: 0px none #000; }

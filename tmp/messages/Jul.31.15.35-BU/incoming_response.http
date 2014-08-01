@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 31 Jul 2014 19:35:25 GMT
+Content-Type: text/xml; charset=UTF-8
+Connection: close
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept, Accept-Encoding
+
+<?xml version="1.0"?>
+<response><result><![CDATA[<tr class="QuickSearchResult">
+	<td class="QuickSearchResultImage ">
+		<img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/5/images/82/macbook__69047.1405401136.30.30.jpg?c=2" alt="MacBook" />
+	</td>
+
+	<td class="QuickSearchResultMeta">
+		<div class="QuickSearchResultName"><a href="http://www.igadgetcommerce.com/sample-product/macbook/" title="MacBook">MacBook</a></div>
+		<span class="Price">$10,000.00</span>
+		<img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" class="RatingIMG" />
+	</td>
+</tr>]]></result><result><![CDATA[<tr class="QuickSearchResult">
+	<td class="QuickSearchResultImage ">
+		<img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/6/images/77/mbp1__99760.1405401140.30.30.jpg?c=2" alt="MacBook Pro" />
+	</td>
+
+	<td class="QuickSearchResultMeta">
+		<div class="QuickSearchResultName"><a href="http://www.igadgetcommerce.com/sample-product/macbook-pro/" title="MacBook Pro">MacBook Pro</a></div>
+		<span class="Price">$10,000.00</span>
+		<img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating4.gif" class="RatingIMG" />
+	</td>
+</tr>]]></result><result><![CDATA[<tr class="QuickSearchResult">
+	<td class="QuickSearchResultImage ">
+		<img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/7/images/72/mba1__75804.1405401137.30.30.jpg?c=2" alt="MacBook Air" />
+	</td>
+
+	<td class="QuickSearchResultMeta">
+		<div class="QuickSearchResultName"><a href="http://www.igadgetcommerce.com/sample-product/macbook-air/" title="MacBook Air">MacBook Air</a></div>
+		<span class="Price">$10,000.00</span>
+		<img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" class="RatingIMG" />
+	</td>
+</tr>]]></result></response>

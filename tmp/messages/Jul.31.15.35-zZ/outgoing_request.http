@@ -1,0 +1,11 @@
+GET /sample-product/macbook/ HTTP/1.0
+Host: igadgetcommerce.com
+Connection: close
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+Referer: http://igadgetcommerce.com/search.php?search_query=macbook&x=20&y=15
+Accept-Encoding: gzip,deflate
+Accept-Language: en-US,en;q=0.8
+Cookie: SHOP_SESSION_TOKEN=f452sb58elbkqsu8a05gqhat75; STORE_VISITOR=1; ajs_group_id=null; ajs_user_id=null
+Via: 1.0 moovweb
+

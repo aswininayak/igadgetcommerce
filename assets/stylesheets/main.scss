@@ -1,0 +1,26 @@
+// Reset file for standardizing the page
+@import "globals/_reset";
+
+// Bourbon
+@import "globals/bourbon/_bourbon";
+
+// Globals
+@import "globals/_variables";
+@import "globals/_lib";
+@import "globals/_base";
+@import "globals/_uranium";
+@import "globals/_buttons";
+@import "globals/_sprites";
+
+// Header & Footer
+@import "sections/_header";
+@import "sections/_footer";
+
+// // Pages
+@import "pages/_home";
+@import "pages/_category";
+@import "pages/_brands";
+@import "pages/_product";
+@import "pages/_cart";
+@import "pages/_checkout";
+@import "pages/_holiday_landing.scss";

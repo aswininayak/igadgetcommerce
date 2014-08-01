@@ -1,0 +1,975 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 31 Jul 2014 19:35:30 GMT
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Connection: close
+Vary: Accept-Encoding
+Content-Length: 42616
+X-Q-S: 200000691000667000017
+X-M-V: 5.1.69
+X-M-T: 000049000027000000000001000021
+X-S-V: local/iGadgetCommerce-example 
+X-I-V: /
+X-S-C: 
+X-M-P: true
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> - Search Results for &amp;quot;macbook&amp;quot;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="shortcut icon" href="http://cdn2.bigcommerce.com/server1200/8hs29h5u/product_images/default_favicon.ico?1405400900">
+<script data-keep="true" type="text/javascript" src="//mlocal.igadgetcommerce.com/_moovweb_local_assets_/javascript/main.js"></script><script language="javascript" type="text/javascript">//<![CDATA[
+		(function(){
+			// this happens before external dependencies (and dom ready) to reduce page flicker
+			var node, i;
+			for (i = window.document.childNodes.length; i--;) {
+				node = window.document.childNodes[i];
+				if (node.nodeName == 'HTML') {
+					node.className += ' javascript';
+				}
+			}
+		})();
+	//]]></script><link rel="alternate" type="application/rss+xml" title="Latest News (RSS 2.0)" href="http://www.igadgetcommerce.com/rss.php?action=newblogs&amp;type=rss">
+<link rel="alternate" type="application/atom+xml" title="Latest News (Atom 0.3)" href="http://www.igadgetcommerce.com/rss.php?action=newblogs&amp;type=atom">
+<link rel="alternate" type="application/rss+xml" title="New Products (RSS 2.0)" href="http://www.igadgetcommerce.com/rss.php?type=rss">
+<link rel="alternate" type="application/atom+xml" title="New Products (Atom 0.3)" href="http://www.igadgetcommerce.com/rss.php?type=atom">
+<link rel="alternate" type="application/rss+xml" title="Popular Products (RSS 2.0)" href="http://www.igadgetcommerce.com/rss.php?action=popularproducts&amp;type=rss">
+<link rel="alternate" type="application/atom+xml" title="Popular Products (Atom 0.3)" href="http://www.igadgetcommerce.com/rss.php?action=popularproducts&amp;type=atom">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><script type="text/javascript" src="http://cdn1.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/menudrop.js?"></script><script type="text/javascript" src="http://cdn1.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/common.js?"></script><script type="text/javascript" src="http://cdn1.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/iselector.js?"></script><script src="http://cdn1.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/viewport.js?"></script><script type="text/javascript">
+	//<![CDATA[
+	config.ShopPath = 'http://www.igadgetcommerce.com';
+	config.AppPath = ''; // BIG-8939: Deprecated, do not use.
+	config.FastCart = 1;
+	var ThumbImageWidth = 120;
+	var ThumbImageHeight = 120;
+	//]]>
+	</script><script type="text/javascript">
+//<![CDATA[
+    (function(){
+        window.bcanalytics||(window.bcanalytics=[]),window.bcanalytics.methods=["debug","identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off","initialize"],window.bcanalytics.factory=function(a){return function(){var b=Array.prototype.slice.call(arguments);return b.unshift(a),window.bcanalytics.push(b),window.bcanalytics}};for(var i=0;i<window.bcanalytics.methods.length;i++){var method=window.bcanalytics.methods[i];window.bcanalytics[method]=window.bcanalytics.factory(method)}window.bcanalytics.load=function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/app/assets/js/vendor/bigcommerce/analytics.min.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)},window.bcanalytics.SNIPPET_VERSION="2.0.8",window.bcanalytics.load();
+
+        // uncomment the following line to turn analytics.js debugging on
+        // shows verbose events and other useful information
+        // analytics.debug();
+
+        var isStorefront = true;
+        if (!isStorefront) {
+            // if we are in control panel context alias to provide backwards compatibility
+            window.analytics = window.bcanalytics;
+        }
+
+        var storeId = '359341',
+            userId = '';
+
+        // initialize with Fornax and Segment.io
+        var providers = {
+            Fornax: {
+                host: 'https://analytics.bigcommerce.com',
+                cdn: 'http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/app/assets/js/vendor/bigcommerce/fornax.min.js',
+                defaultEventProperties: {
+                    storeId: storeId
+                },
+                defaultContext: {
+                    source: 'Bigcommerce ' + (isStorefront ? 'Storefront' : 'Control Panel')
+                },
+                anonymousId: "5e3b8032-2362-4831-93b4-74e6de898639"
+            }
+        };
+
+        var fornaxEnabled = true;
+
+        if (!fornaxEnabled) {
+            delete providers.Fornax;
+        }
+
+        bcanalytics.initialize(providers);
+
+        
+        // identify this user
+        bcanalytics.identify(
+            userId || null,
+            {"storeHash":"8hs29h5u","storeId":"359341","namespace":"bc.customers","storeCountry":"United States","experiments":{"seo_fixes":"disabled","shopping.checkout.cart_to_paid":"legacy_ui","search.storefront.backend":"elastic","assets.template_indexing":"asset_indexers","assets.product_image_health_check":"on"},"storefront_session_id":"a5695da2fea558810f4070247f051f095ada1f75","sessionId":"5e3b8032-2362-4831-93b4-74e6de898639"}
+        );
+    })();
+//]]>
+</script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js"></script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/jquery/plugins/validate/jquery.validate.js"></script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/product.functions.js"></script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/product.attributes.js"></script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/quickview.js"></script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/jquery/plugins/jquery.form.js"></script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/jquery/plugins/imodal/imodal.js"></script><script type="text/javascript">
+ShowImageZoomer = false;
+$(document).ready(function() {
+	$(".QuickView").quickview({
+		buttonText: "Quick View",
+		buttonColor: "#f7f7f7",
+		gradientColor: "#dcdbdb",
+		textColor: "#000000"
+	});
+});
+</script><script type="text/javascript" src="http://cdn2.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/quicksearch.js"></script><meta http-equiv="Content-Type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="http://igadgetcommerce.com/search.php?search_query=macbook&amp;x=20&amp;y=15">
+<link rel="shortcut icon" href="//mlocal.igadgetcommerce.com/_moovweb_local_assets_/images/favicon.ico">
+<link rel="apple-touch-icon" href="//mlocal.igadgetcommerce.com/_moovweb_local_assets_/images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" href="//mlocal.igadgetcommerce.com/_moovweb_local_assets_/images/apple-touch-icon-114x114.png">
+<link rel="stylesheet" type="text/css" href="//mlocal.igadgetcommerce.com/_moovweb_local_assets_/stylesheets/.css/devices/webkit.css" data-mw-keep="true">
+</head>
+<body>
+	<div id="Container">
+			<div id="AjaxLoading">
+<img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/ajax-loader.gif" alt="">  Loading... Please wait...</div>
+		
+
+				
+		
+		
+		<div id="Outer">
+			<div id="Header" data-ur-set="toggler">
+				<div id="Logo">
+						<div id="LogoContainer">
+		<h1><a href="http://mlocal.igadgetcommerce.com/"><span class="Logo1stWord">iGadgetCommerce</span></a></h1>
+	</div>
+				<div id="TopMenu">
+			<ul style="display:">
+				<li style="display:" class="First"><a href="http://mlocal.igadgetcommerce.com/account.php">My Account</a></li>
+				
+				
+				
+				<li style="display:" class="CartLink"><a href="http://mlocal.igadgetcommerce.com/cart.php">View Cart <span> (1 item)</span></a></li>
+				
+			</ul>
+<br class="Clear">
+</div>
+</div>
+<div class="mw_header_bottom">
+  <div class="mw_search"><div id="SearchForm">
+				<form action="http://mlocal.igadgetcommerce.com/search.php" method="get" onsubmit="return check_small_search_form()">
+					
+					<input type="text" name="search_query" id="search_query" class="Textbox" value="macbook" placeholder="Search…"><div class="mw_search_btn buttons-search"><input type="image" src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/red/Search.gif" class="Button"></div>
+</form>
+				
+			</div></div>
+  <div class="mw_menu_btn" data-ur-toggler-component="button">
+  </div>
+</div>
+							
+
+			<script type="text/javascript">
+				var QuickSearchAlignment = 'left';
+				var QuickSearchWidth = '232px';
+				lang.EmptySmallSearch = "You forgot to enter some search keywords.";
+			</script><div id="Menu" data-ur-toggler-component="content">
+		<ul>
+<li class="First "><a href="http://mlocal.igadgetcommerce.com/"><span>Home</span></a></li>
+				<li class=" ">
+		<a href="http://mlocal.igadgetcommerce.com/shipping-returns/"><span>Shipping &amp; Returns</span></a>
+		
+	</li>	<li class=" ">
+		<a href="http://mlocal.igadgetcommerce.com/rss-syndication/"><span>RSS Syndication</span></a>
+		
+	</li>
+		</ul>
+<div class="Block CategoryList Moveable Panel" id="SideCategoryList">
+					<h2>Categories</h2>
+					<div class="BlockContent">
+						<div class="SideCategoryListClassic">
+							<ul class="category-list">
+<li class="">
+<a href="http://mlocal.igadgetcommerce.com/shop-misc/">Misc</a>
+	
+	</li>	<li class="">
+<a href="http://mlocal.igadgetcommerce.com/shop-new-product-category/">New product category!</a>
+	
+	</li>	<li class="">
+<a href="http://mlocal.igadgetcommerce.com/shop-iphone/">Shop iPhone</a>
+	
+	</li>	<li class="">
+<a href="http://mlocal.igadgetcommerce.com/shop-ipod/">Shop iPod</a>
+	
+	</li>	<li class="">
+<a href="http://mlocal.igadgetcommerce.com/shop-mac/">Shop Mac</a>
+	
+	</li>
+</ul>
+<div class="afterSideCategoryList"></div>
+						</div>
+					</div>
+				</div>
+</div>
+</div>
+			
+
+
+	<div id="Wrapper">
+		
+		<div class="Left" id="LayoutColumn1">
+							
+
+			<div class="Block BrandList Moveable Panel" id="SideShopByBrand" style="display: ">
+	<h2>Popular Brands</h2>
+	<div class="BlockContent">
+		<ul>
+<li><a href="http://mlocal.igadgetcommerce.com/brands/Apple.html">Apple</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Elgato.html">Elgato</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Logitech.html">Logitech</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Microsoft.html">Microsoft</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Speck.html">Speck</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/booq.html">booq</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Crumpler.html">Crumpler</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Higher-Ground.html">Higher Ground</a></li>	<li><a href="http://mlocal.igadgetcommerce.com/brands/Incase.html">Incase</a></li>
+		</ul>
+</div>
+</div>
+								
+
+				<div class="Block NewsletterSubscription Moveable Panel" id="SideNewsletterBox">
+					
+					<h2>
+						Our Newsletter
+					</h2>
+					
+
+					<div class="BlockContent">
+						<form action="http://mlocal.igadgetcommerce.com/subscribe.php" method="post" id="subscribe_form" name="subscribe_form">
+							<input type="hidden" name="action" value="subscribe"><label for="nl_first_name">Your First Name:</label>
+							<input type="text" class="Textbox" id="nl_first_name" name="nl_first_name"><label for="nl_email">Your Email Address:</label>
+							<input type="text" class="Textbox" id="nl_email" name="nl_email"><br><input type="image" src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/red/NewsletterSubscribe.gif" value="Subscribe" class="Button">
+</form>
+					</div>
+				</div>
+				<script type="text/javascript">
+// <!--
+	$('#subscribe_form').submit(function() {
+		if($('#nl_first_name').val() == '') {
+			alert('You forgot to type in your first name.');
+			$('#nl_first_name').focus();
+			return false;
+		}
+
+		if($('#nl_email').val() == '') {
+			alert('You forgot to type in your email address.');
+			$('#nl_email').focus();
+			return false;
+		}
+
+		if($('#nl_email').val().indexOf('@') == -1 || $('#nl_email').val().indexOf('.') == -1) {
+			alert('Please enter a valid email address, such as john@example.com.');
+			$('#nl_email').focus();
+			$('#nl_email').select();
+			return false;
+		}
+
+		// Set the action of the form to stop spammers
+		$('#subscribe_form').append("<input type=\"hidden\" name=\"check\" value=\"1\" \/>");
+		return true;
+
+	});
+// -->
+</script>
+</div>
+		<div class="Content Wide WideWithLeft" id="LayoutColumn2">
+			<div class="Block Moveable Panel" id="SearchPageHeader">
+	<div class="FloatRight ToggleSearchFormLink" style="display:;visibility:hidden;">
+		<a id="toggle_form_link" href="javascript:void(0)" onclick="ToggleSearchForm()" name="toggle_form_link">Hide Search Form</a> <a href="javascript:void(0)" onclick="ToggleSearchForm()"><img id="toggle_form_image" src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/ArrowUp.gif" class="PB2" alt="" name="toggle_form_image"></a>
+	</div>
+	<script type="text/javascript" src="http://cdn1.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/jquery/plugins/jstree/jquery.jstree.js"></script><h2>Search Results for "macbook"</h2>
+
+	<div class="BlockContent">
+		<div style="display:">
+			<div class="AdvancedSearch">
+				<form id="AdvancedSearchForm" action="http://mlocal.igadgetcommerce.com/search.php" method="get" onsubmit="return CheckAdvancedSearchForm()">
+					<input type="hidden" name="mode" value="1"><h3>Advanced Search</h3>
+
+					<div class="FormContainer HorizontalFormContainer PL20">
+						<dl>
+<dt>Search Keyword:</dt>
+							<dd><input type="text" class="Field250" name="search_query_adv" id="search_query_adv" value="macbook"></dd>
+
+							<dt>Brand Name:</dt>
+							<dd>
+								<select class="Field250" name="brand" id="brand"><option value="">No Preference</option>
+<option value="1">Apple</option>
+<option value="8">booq</option>
+<option value="5">Crumpler</option>
+<option value="3">Elgato</option>
+<option value="6">Higher Ground</option>
+<option value="9">Incase</option>
+<option value="4">Logitech</option>
+<option value="2">Microsoft</option>
+<option value="7">Speck</option></select>
+</dd>
+
+							<dt>Categories:</dt>
+							<dd>
+								<div id="category" class="categoryPicker Field250"></div>
+							</dd>
+
+							<dd class="Clear">
+<input type="checkbox" class="CheckBox" name="searchsubs" id="searchsubs" value="ON" checked><label for="searchsubs">Automatically search sub categories</label>
+</dd>
+						</dl>
+<hr class="Clear">
+</div>
+
+					<h3 class="Clear" style="display: ">Search by Price</h3>
+
+					<div class="FormContainer HorizontalFormContainer PL20" style="display: ">
+						<dl>
+<dt>Price Range:</dt>
+						<dd>
+							From
+							<input type="text" class="Textbox" name="price_from" id="price_from" size="4" style="width: 40px;" value=""> 
+							to
+							<input type="text" class="Textbox" size="4" name="price_to" id="price_to" style="width: 40px;" value="">
+</dd>
+						</dl>
+<hr class="Clear">
+</div>
+
+					<h3 class="" style="display: ">Search by Setting</h3>
+
+					<div class="FormContainer HorizontalFormContainer PL20" style="display: ">
+						<dl>
+<dt>Featured Product:</dt>
+							<dd>
+								<select class="Field250" name="featured" id="featured"><option value="">No Preference</option>
+<option value="1">Only Featured Products</option>
+<option value="2">Only Non-Featured Products</option></select>
+</dd>
+
+							<dt>Free Shipping:</dt>
+							<dd>
+								<select class="Field250" name="shipping" id="shipping"><option value="">No Preference</option>
+<option value="1">Only Free Shipping</option>
+<option value="2">Only Paid Shipping</option></select>
+</dd>
+						</dl>
+</div>
+
+					<div class="FormContainer HorizontalFormContainer PL20">
+						<br class="Clear"><p class="Submit">
+							<input type="submit" value="Search"></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<a name="results"></a>
+
+	<p class="InfoMessage Message" style="display:none">
+		<strong>Related Searches:</strong> 
+	</p>
+
+	<p class="SearchSuggest" style="display: none">
+		<strong>Did you mean:</strong> <a class="nofollow" rel="nofollow" data-params="&amp;correction=1131" href="http://mlocal.igadgetcommerce.com/search.php?search_query="></a>
+	</p>
+
+	<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function() {
+
+	    /*
+         * BIG-4435
+         * Reconstruct any related or similar item search links
+         */
+        $('.nofollow').click(function(){
+            this.href += $(this).data('params');
+        });
+
+		$('.ToggleSearchFormLink').css('visibility', 'visible');
+
+		$("#category").jstree({
+			json_data: {
+				data: [
+					[{"data":"Misc","attr":{"id":"category-11","title":"Misc"},"metadata":{"id":11}},{"data":"New product category!","attr":{"id":"category-14","title":"New product category!"},"metadata":{"id":14}},{"data":"Shop iPhone","attr":{"id":"category-2","title":"Shop iPhone"},"metadata":{"id":2},"state":"closed"},{"data":"Shop iPod","attr":{"id":"category-3","title":"Shop iPod"},"metadata":{"id":3},"state":"closed"},{"data":"Shop Mac","attr":{"id":"category-1","title":"Shop Mac"},"metadata":{"id":1},"state":"closed"}]
+				],
+				ajax: {
+					url: "remote.php?w=getChildCategoriesJSON",
+					data: function (n) {
+						var selectedCategoryId = 0;
+						if (n.attr) {
+							selectedCategoryId = n.data('id');
+						}
+
+						var data = {
+							selectedCategoryId: selectedCategoryId,
+							prefix: 'category'
+						};
+
+						return data;
+					},
+					global: false
+				}
+			},
+			ui: {
+				
+			},
+			themes: {
+				theme: "interspire",
+				url: config.ShopPath + '/javascript/jquery/plugins/jstree/themes/interspire/style.css'
+			},
+			checkbox: {
+				two_state: true,
+				override_ui: true,
+				real_checkboxes: true,
+				real_checkboxes_names: function(n) {
+					return ["category[]", n.data('id')];
+				}
+			},
+			plugins: [ "themes", "json_data", "ui", "checkbox" ]
+		});
+
+		if("true" == "true") {
+			ToggleSearchForm();
+		}
+	});
+
+	// Toggle the advanced search form
+	function ToggleSearchForm() {
+		if($('.AdvancedSearch').css('display') == 'none') {
+			$('.AdvancedSearch').show();
+			$('#toggle_form_image').attr({src:"http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/ArrowUp.gif"});
+			$('#toggle_form_link').text('Hide Search Form');
+			$('#search_query_adv').focus();
+		}
+		else {
+			$('.AdvancedSearch').hide();
+			$('#toggle_form_image').attr({src:"http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/ArrowDown.gif"});
+			$('#toggle_form_link').text('Show Search Form');
+		}
+	}
+
+	function showSearchTabs(section)
+	{
+		var showSection, hideSection;
+
+		if (typeof(section) == 'undefined' || (section.toLowerCase() !== 'product' && section.toLowerCase() !== 'content')) {
+			return;
+		}
+
+		if (section.toLowerCase() == 'product') {
+			showSection = 'Product';
+			hideSection = 'Content';
+		} else {
+			showSection = 'Content';
+			hideSection = 'Product';
+		}
+
+		$('#Search' + showSection + '_Tab').attr('class', 'Active');
+		$('#Search' + showSection + '_Container').show();
+		$('#Search' + hideSection + '_Tab').attr('class', '');
+		$('#Search' + hideSection + '_Container').hide();
+	}
+
+	function AjaxSearchPagingClick()
+	{
+		var parent = $(this).parents('.SearchContainer');
+
+		var url = this.href;
+		url = url.replace(/#.*$/, '');
+
+		url += '&ajax=1';
+
+		$(this).parents('.SearchContainer').load(url, {}, function() {
+			BindAjaxSearch();
+		});
+
+		return false;
+	}
+
+	function AjaxSearchSortingChange()
+	{
+		var url = location.pathname;
+		var search = location.search.substr(1).split('&');
+
+		for (var i = search.length; i--;) {
+			// remove existing values that we'll overwrite later
+			if (/^(sortby|section|ajax)=/i.test(search[i])) {
+				search.splice(i, 1);
+			}
+		}
+
+		search.push('ajax=1');
+		search.push('sortBy=' + encodeURIComponent($(this).val()));
+
+		var id = $(this).attr('id');
+
+		if (id.toLowerCase().indexOf('product') !== -1) {
+			search.push('section=product');
+		} else {
+			search.push('section=content');
+		}
+
+		search = search.join('&');
+
+		url += '?' + search;
+
+		$(this).parents('.SearchContainer').load(url, {}, BindAjaxSearch);
+
+		return false;
+	}
+
+	function BindAjaxSearch()
+	{
+		// onchange is not currently supported by live/die so this needs to be run whenever the search results dom changes
+		$('.CategoryPagination a').click(AjaxSearchPagingClick);
+		$('.SearchSortingList').change(AjaxSearchSortingChange);
+		window.scrollTo(0, 0);
+		setProductListHeights();
+	}
+
+	$(document).ready(function() {
+		BindAjaxSearch();
+	});
+
+	// Make sure any advanced search fields are valid
+	function CheckAdvancedSearchForm() {
+		if($('#search_query_adv').val() == '') {
+			alert('You forgot to enter some search keywords.');
+			$('#search_query_adv').focus();
+			return false;
+		}
+
+		if(isNaN($('#price_from').val())) {
+			alert('Please enter a valid \'from\' price containing numbers only.');
+			$('#price_from').focus();
+			$('#price_from').select();
+			return false;
+		}
+
+		if(isNaN($('#price_to').val())) {
+			alert('Please enter a valid \'to\' price containing numbers only.');
+			$('#price_to').focus();
+			$('#price_to').select();
+			return false;
+		}
+
+		var form = $('#AdvancedSearchForm');
+
+		// disable redundant fields
+		var disabled = [];
+
+		form.find('[name]').each(function(){
+			if (typeof this.disabled === 'undefined' || this.disabled) {
+				// skip elements that can't be disabled, or are already disabled
+				return;
+			}
+
+			if (this.name.substr(0, 20) != 'ISSelectReplacement_') {
+				// these aren't the fields you're looking for
+				return;
+			}
+
+			disabled.push(this);
+			this.disabled = true;
+		});
+
+		if (disabled.length) {
+			// fields were disabled need to be re-enabled so that using the back button doesn't result in a form with disabled fields
+			// needs to be a timeout so the fields are re-enabled after the form is dispatched
+			window.setTimeout(function(){
+				for (var i = disabled.length; i--;) {
+					disabled[i].disabled = false;
+				}
+			}, 1);
+		}
+
+		return true;
+	}
+
+	// Track a search click
+	$(document).ready(function()
+	{
+		$('.TrackLink').mousedown(function(event)
+		{
+			// Only care for left clicks
+			if(event.button && event.button != 1)
+			{
+				return;
+			}
+
+			isc_TrackSearchClick('1131');
+		});
+	});
+//]]>
+</script>
+</div>
+
+			
+			<div class="Block Moveable Panel" id="SearchPage" style="display:">
+	<ul id="SearchTabsList" class="TabNav">
+<li id="SearchProduct_Tab" class="Active"><a href="search.php?search_query=macbook&amp;x=20&amp;y=15&amp;section=product#results" onclick="showSearchTabs('product'); return false;">Products</a></li>
+		<li id="SearchContent_Tab" class=""><a href="search.php?search_query=macbook&amp;x=20&amp;y=15&amp;section=content#results" onclick="showSearchTabs('content'); return false;">News &amp; Information</a></li>
+	</ul>
+<div id="SearchProduct_Container" style="">
+		<div class="Block Panel" id="SearchTabProducts">
+	<div id="SearchResultsCategoryAndBrand" style="display: none">
+		<div id="SearchResultsCategory" style="display: none">
+			Did you mean to browse one of the following categories instead? 
+		</div>
+		<div id="SearchResultsBrand" style="display: none">
+			Did you mean to browse one of the following brands instead? 
+		</div>
+	</div>
+
+	<div id="SearchResultsProduct" style="display: ">
+				<script language="javascript" type="text/javascript">//<![CDATA[
+			lang.CompareSelectMessage = 'Please choose at least 2 products to compare.';
+			lang.PleaseSelectAProduct = 'Please select at least one product to add to your cart.';
+			config.CompareLink = 'http://www.igadgetcommerce.com/compare/';
+		//]]></script><script type="text/javascript" src="http://cdn1.bigcommerce.com/rc82026b5143afc4342b7acc727c3b1b814dd03d1/javascript/listmode.js?"></script><form name="frmCompare" id="frmCompare" action="http://mlocal.igadgetcommerce.com/compare/" method="get">
+			<div class="CompareButtonContainer" style="visibility: hidden;">
+				
+			</div>
+
+			<div class="SearchContainer">
+				<div class="CategoryPagination" style="display: none">
+	<div class="FloatLeft"></div>
+	<div class="FloatRight"></div>
+	<ul class="PagingList">
+<li>Pages:</li>
+		<li class="ActivePage">1</li>
+	</ul>
+</div>
+
+<div class="SearchSorting Clear" style="display: ">
+	<div style="visibility:hidden;" id="SearchSortingSelectContainer">
+		Sort by:
+		<select id="SearchSortingProductList" name="SearchSortingProductList" class="SearchSortingList"><option value="relevance" selected>Relevance</option>
+<option value="featured">Featured Items</option>
+<option value="newest">Newest Items</option>
+<option value="bestselling">Bestselling</option>
+<option value="alphaasc">Alphabetical: A to Z</option>
+<option value="alphadesc">Alphabetical: Z to A</option>
+<option value="avgcustomerreview">Avg. Customer Review</option>
+<option value="priceasc">Price: Low to High</option>
+<option value="pricedesc">Price: High to Low</option></select>
+</div>
+	<script language="javascript" type="text/javascript">//<![CDATA[
+	// reveal the sorting options when is js available -- visiblity is used instead of display so the page flow doesn't change when loading
+	$('#SearchSortingSelectContainer').css('visibility', 'visible');
+	//]]></script>
+</div>
+
+<ul class="ProductList List Clear">
+<li class="Even ListView">
+								<div class="ProductImage QuickView" data-product="5">
+									<a href="http://mlocal.igadgetcommerce.com/sample-product/macbook/" class="TrackLink"><img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/5/images/82/macbook__69047.1405401136.120.120.jpg?c=2" alt="MacBook"></a>
+								</div>
+								<div class="ProductDetails">
+									<span class="ProductRightCol">
+										<span class="ProductPrice">$10,000.00</span>
+										<span class="ProductQty" style="visibility:hidden;">
+											<a href="http://mlocal.igadgetcommerce.com/sample-product/macbook/">Choose Options</a>
+										</span>
+									</span>
+									<strong><a href="http://mlocal.igadgetcommerce.com/sample-product/macbook/" class="TrackLink">MacBook</a></strong>
+									<div class="Rating Rating0"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" alt="" style=""></div>
+									<div class="ProductDescription">Redesigned with a precision unibody enclosure crafted from a single block of aluminum, the MacBook is thinner and lighter than its predecessor as well as stronger and more durable. But Apple didn't stop innovating with the body's design. The MacBook...</div>
+									<div class="ProductCompareButton" style="display:;visibility:hidden;">
+										<input type="checkbox" class="CheckBox" name="compare_product_ids" id="compare_5" value="5" onclick="product_comparison_box_changed(this.checked)"><label for="compare_5">Compare</label> <br>
+</div>
+								</div>
+
+							</li>							<li class="Odd ListView">
+								<div class="ProductImage QuickView" data-product="7">
+									<a href="http://mlocal.igadgetcommerce.com/sample-product/macbook-air/" class="TrackLink"><img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/7/images/72/mba1__75804.1405401137.120.120.jpg?c=2" alt="MacBook Air"></a>
+								</div>
+								<div class="ProductDetails">
+									<span class="ProductRightCol">
+										<span class="ProductPrice">$10,000.00</span>
+										<span class="ProductQty" style="visibility:hidden;">
+											<a href="http://mlocal.igadgetcommerce.com/sample-product/macbook-air/">Choose Options</a>
+										</span>
+									</span>
+									<strong><a href="http://mlocal.igadgetcommerce.com/sample-product/macbook-air/" class="TrackLink">MacBook Air</a></strong>
+									<div class="Rating Rating0"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" alt="" style=""></div>
+									<div class="ProductDescription">With the MacBook Air, Apple has created the world's thinnest laptop--measuring an unprecedented 0.16-inches at its thinnest point (and 0.76 inches thick overall). Apple brings its vaunted multi-touch technology, found on the iPhone, to its laptops...</div>
+									<div class="ProductCompareButton" style="display:;visibility:hidden;">
+										<input type="checkbox" class="CheckBox" name="compare_product_ids" id="compare_7" value="7" onclick="product_comparison_box_changed(this.checked)"><label for="compare_7">Compare</label> <br>
+</div>
+								</div>
+
+							</li>							<li class="Even ListView">
+								<div class="ProductImage QuickView" data-product="6">
+									<a href="http://mlocal.igadgetcommerce.com/sample-product/macbook-pro/" class="TrackLink"><img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/6/images/77/mbp1__99760.1405401140.120.120.jpg?c=2" alt="MacBook Pro"></a>
+								</div>
+								<div class="ProductDetails">
+									<span class="ProductRightCol">
+										<span class="ProductPrice">$10,000.00</span>
+										<span class="ProductQty" style="visibility:hidden;">
+											<a href="http://mlocal.igadgetcommerce.com/sample-product/macbook-pro/">Choose Options</a>
+										</span>
+									</span>
+									<strong><a href="http://mlocal.igadgetcommerce.com/sample-product/macbook-pro/" class="TrackLink">MacBook Pro</a></strong>
+									<div class="Rating Rating4"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating4.gif" alt="" style=""></div>
+									<div class="ProductDescription">Redesigned with a precision unibody enclosure crafted from a single block of aluminum, the MacBook Pro is thinner and lighter than its predecessor as well as stronger and more durable. But Apple didn't stop innovating with the body's design. The...</div>
+									<div class="ProductCompareButton" style="display:;visibility:hidden;">
+										<input type="checkbox" class="CheckBox" name="compare_product_ids" id="compare_6" value="6" onclick="product_comparison_box_changed(this.checked)"><label for="compare_6">Compare</label> <br>
+</div>
+								</div>
+
+							</li>							<li class="Odd ListView">
+								<div class="ProductImage QuickView" data-product="18">
+									<a href="http://mlocal.igadgetcommerce.com/sample-product/crumpler-considerable-embarrassment-bag/" class="TrackLink"><img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/18/images/41/crumpler1__37065.1405401092.120.120.jpg?c=2" alt="Crumpler Considerable Embarrassment Bag"></a>
+								</div>
+								<div class="ProductDetails">
+									<span class="ProductRightCol">
+										<span class="ProductPrice">$35,000.00</span>
+										<span class="ProductQty" style="visibility:hidden;">
+											<select id="qty_18" name="qty[18]" class="Field45 quantityInput" style="width: auto;"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option></select></span>
+									</span>
+									<strong><a href="http://mlocal.igadgetcommerce.com/sample-product/crumpler-considerable-embarrassment-bag/" class="TrackLink">Crumpler Considerable Embarrassment Bag</a></strong>
+									<div class="Rating Rating0"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" alt="" style=""></div>
+									<div class="ProductDescription">With a roomy unpadded cargo compartment and a padded sleeve that accommodates MacBook or 15-inch MacBook Pro notebooks, the Crumpler Considerable Embarrassment gives you the best of both worlds.Features
+
+Padded notebook compartment with six-pocket...</div>
+									<div class="ProductCompareButton" style="display:;visibility:hidden;">
+										<input type="checkbox" class="CheckBox" name="compare_product_ids" id="compare_18" value="18" onclick="product_comparison_box_changed(this.checked)"><label for="compare_18">Compare</label> <br>
+</div>
+								</div>
+
+							</li>							<li class="Even ListView">
+								<div class="ProductImage QuickView" data-product="20">
+									<a href="http://mlocal.igadgetcommerce.com/sample-product/speck-13-inch-seethru-satin-case/" class="TrackLink"><img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/20/images/35/speck__64014.1405401337.120.120.jpg?c=2" alt="Speck 13-inch SeeThru Satin Case"></a>
+								</div>
+								<div class="ProductDetails">
+									<span class="ProductRightCol">
+										<span class="ProductPrice">$10,000.00</span>
+										<span class="ProductQty" style="visibility:hidden;">
+											<select id="qty_20" name="qty[20]" class="Field45 quantityInput" style="width: auto;"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option></select></span>
+									</span>
+									<strong><a href="http://mlocal.igadgetcommerce.com/sample-product/speck-13-inch-seethru-satin-case/" class="TrackLink">Speck 13-inch SeeThru Satin Case</a></strong>
+									<div class="Rating Rating0"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" alt="" style=""></div>
+									<div class="ProductDescription">Give your aluminum MacBook a smooth yet easily gripped semi-translucent frosted finish that effortlessly slips in and out of your bag. The SeeThru Satin case also ensures access to all your important plugs and drives while protecting your precious...</div>
+									<div class="ProductCompareButton" style="display:;visibility:hidden;">
+										<input type="checkbox" class="CheckBox" name="compare_product_ids" id="compare_20" value="20" onclick="product_comparison_box_changed(this.checked)"><label for="compare_20">Compare</label> <br>
+</div>
+								</div>
+
+							</li>							<li class="Odd ListView">
+								<div class="ProductImage QuickView" data-product="8">
+									<a href="http://mlocal.igadgetcommerce.com/sample-product/elgato-eyetv-dtt-deluxe/" class="TrackLink"><img src="http://cdn1.bigcommerce.com/server1200/8hs29h5u/products/8/images/69/eyetvdtt__37033.1405401099.120.120.jpg?c=2" alt="Elgato EyeTV DTT Deluxe"></a>
+								</div>
+								<div class="ProductDetails">
+									<span class="ProductRightCol">
+										<span class="ProductPrice">$10,000.00</span>
+										<span class="ProductQty" style="visibility:hidden;">
+											<select id="qty_8" name="qty[8]" class="Field45 quantityInput" style="width: auto;"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option></select></span>
+									</span>
+									<strong><a href="http://mlocal.igadgetcommerce.com/sample-product/elgato-eyetv-dtt-deluxe/" class="TrackLink">Elgato EyeTV DTT Deluxe</a></strong>
+									<div class="Rating Rating0"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/IcoRating0.gif" alt="" style=""></div>
+									<div class="ProductDescription">EyeTV DTT Deluxe is an extraordinarily powerful miniature TV tuner that delivers digital terrestrial television (DVB-T, also known as DTT or Freeview) to your Mac. Exceptionally small and beautifully designed, EyeTV DTT Deluxe slips easily into the...</div>
+									<div class="ProductCompareButton" style="display:;visibility:hidden;">
+										<input type="checkbox" class="CheckBox" name="compare_product_ids" id="compare_8" value="8" onclick="product_comparison_box_changed(this.checked)"><label for="compare_8">Compare</label> <br>
+</div>
+								</div>
+
+							</li>
+</ul>
+<br class="Clear"><div class="CategoryPagination" style="display: none">
+	<div class="FloatLeft"></div>
+	<div class="FloatRight"></div>
+	<ul class="PagingList">
+<li>Pages:</li>
+		<li class="ActivePage">1</li>
+	</ul>
+</div>
+			</div>
+
+			<br class="Clear"><div class="CompareButtonContainer" style="visibility: hidden;">
+										<div class="CompareButton" style="margin-top: 0;">
+							<input style="display:" type="image" onclick="return CheckForm('compare');" value="Compare Selected" src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/red/CompareButton.gif"><input style="display:" type="image" onclick="return CheckForm('add');" src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/red/AddCartButton.gif" alt="">
+</div>
+			</div>
+
+			<script language="javascript" type="text/javascript">//<![CDATA[
+			$('.CompareButtonContainer, .ProductCompareButton, .ProductQty').css('visibility', 'visible');
+			//]]></script>
+</form>
+
+		<br class="Clear"><span class="FeedLink FloatRight">
+	<a href="http://mlocal.igadgetcommerce.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=macbook"><img src="http://cdn1.bigcommerce.com/r4f615c2ae007824a9fe879699febc4e15e0b2067/themes/SmartShop/images/RSS.gif" title="Popular Products RSS Feed for %s" style="vertical-align: middle"></a>
+	<a href="http://mlocal.igadgetcommerce.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=macbook">View Results as RSS Feed</a>
+</span>
+	</div>
+
+	<div style="display: none">
+		<p class="ErrorMessage Message"> Your search for <strong>"macbook"</strong> did not match any products.</p>
+
+		<div class="InfoMessage Message">
+			<p><strong>Suggestions:</strong></p>
+			<ul>
+<li>Make sure all words are spelled correctly.</li>
+				<li>Try different keywords.</li>
+				<li>Try more general keywords.</li>
+			</ul>
+</div>
+	</div>
+</div>
+	</div>
+
+	<div id="SearchContent_Container" style="display:none;">
+		<div class="Block Panel" id="SearchTabContent">
+	<div id="SearchResultsContent" style="display: none">
+		
+	</div>
+
+	<div style="display: ">
+		<p class="ErrorMessage Message"> Your search for <strong>"macbook"</strong> did not match any news or information.</p>
+
+		<div class="InfoMessage Message">
+			<p><strong>Suggestions:</strong></p>
+			<ul>
+<li>Make sure all words are spelled correctly.</li>
+				<li>Try different keywords.</li>
+				<li>Try more general keywords.</li>
+			</ul>
+</div>
+	</div>
+</div>
+
+	</div>
+</div>
+
+<script language="javascript" type="text/javascript">//<![CDATA[
+$(document).ready(
+	function()
+	{
+		showSearchTabs("product");
+	}
+);
+//]]></script>
+</div>
+		<br class="Clear">
+</div>
+	</div>
+		<br class="Clear">
+</div>
+		<div id="Footer">
+			<div>
+<div class="mw_currency">
+<span>
+				All prices are in </span><span title="Default Currency">USD</span>
+</div>
+<div class="mw_copy"><span>Copyright 2013 iGadgetCommerce.</span></div>
+<div class="mw_moovweb">
+<span class="mw_powered">powered by:</span><div class="sprites-moovweb"></div>
+</div>
+</div>
+			
+		</div>
+
+
+
+		
+		
+		
+		
+
+		
+
+		
+
+		
+		
+		<script type="text/javascript">
+$(document).ready(function() {
+	// attach fast cart event to all 'add to cart' link
+	$(".ProductActionAdd a[href*='cart.php?action=add']").click(function(event) {
+		fastCartAction($(this).attr('href'));
+		return false;
+	});
+});
+</script><div style="display: none">
+
+</div>
+
+</body>
+</html>

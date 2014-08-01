@@ -1,0 +1,18 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Thu, 31 Jul 2014 19:35:53 GMT
+Content-Type: text/html; charset=UTF-8
+Location: https://mlocal.igadgetcommerce.com/account.php
+Connection: close
+Vary: Accept-Encoding
+Content-Length: 108
+X-Q-S: 302000188000179000001
+X-M-V: 5.1.69
+X-M-T: 000029000015000000000000000014
+X-S-V: local/iGadgetCommerce-example 
+X-I-V: /
+X-S-C: 
+X-M-P: true
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+

@@ -1,0 +1,21 @@
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Thu, 31 Jul 2014 19:35:58 GMT
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Location: https://mlocal.igadgetcommerce.com/login.php?from=account.php%3Faction%3D
+Connection: close
+Vary: Accept-Encoding
+Content-Length: 108
+X-Q-S: 302000439000435000000
+X-M-V: 5.1.69
+X-M-T: 000022000012000000000000000010
+X-S-V: local/iGadgetCommerce-example 
+X-I-V: /
+X-S-C: 
+X-M-P: true
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
